@@ -50,7 +50,7 @@
         <center>
             <div class="navbar-collapse collapse" id="navbar-main">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link</a>
+                    <li class="active"><a href="./fullcalendar-2.3.1/demos/gcal.html" target="cal">Link</a>
                     </li>
                     <li><a href="#">Link</a>
                     </li>
@@ -87,6 +87,9 @@
             </div>
         </center>
     </div>
+    
+    <iframe name="cal" src="./fullcalendar-2.3.1/demos/gcal.html" width="1364" height="750" align="middle" frameboder="0" scrolling="auto"></iframe>
+   
 </div>	<script type="text/javascript">
 		</script>
 		
