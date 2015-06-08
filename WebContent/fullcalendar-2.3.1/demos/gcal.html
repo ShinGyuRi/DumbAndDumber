@@ -46,12 +46,14 @@
 			// US Holidays
 			events: 'https://www.google.com/calendar/feeds/s.conast%40gmail.com/public/basic',
 			
+			eventSources: 'https://www.google.com/calendar/feeds/ko.south_korea%23holiday%40group.v.calendar.google.com/public/basic',
+			
 			eventClick: function(event) {
 				// opens events in a popup window
 				window.open(event.url, 'gcalevent', 'width=700,height=600');
 				return false;
 			},
-			
+						
 			loading: function(bool) {
 				$('#loading').toggle(bool);
 			}
